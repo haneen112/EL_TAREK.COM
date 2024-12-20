@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموتسيكلات</title>
+</head>
+<style>
+        body{
+        background: linear-gradient(black,red);
+        
+    }
+        .action-button{
+    padding: 1em 2em;
+    background:linear-gradient(red, black);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:  background-color 0.3s;
+    display: block;
+  }
+  .action-button:hover{
+    background-color: red;
+  }
+.home{
+    text-decoration: none;
+    color: white;
+}
+img{
+        max-width: 100%;
+        max-height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    h1{
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: rgb(250, 250, 250);
+        background:linear-gradient(black,rgb(97, 0, 0));
+        cursor: pointer;
+    }
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      justify-items: center;
+    }
+    .product-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .product-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 15px 0;
+      font-size: 20px;
+      color: #333;
+    }
+    .product-card p {
+      margin: 10px 0;
+      font-size: 18px;
+      color: #777;
+    }
+    .product-card .price {
+      font-size: 22px;
+      font-weight: bold;
+      color: #4CAF50;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+   
+</style>
+<body>
+    <header>
+        <button class="action-button">
+            <a href="motor.html" class="home">رجــــــــوع</a>
+        </button>
+    <div class="logoph">
+        <a><img src="319777834_1548745818904125_612606017912900546_n.png" alt="logo"></a>
+    </div>
+</header>
+<h1 >ســكـــوتـــــــــر بــنــزيــــن </h1>
+<div class="product-container">
+    <!-- منتج 1 -->
+    <div class="product-card">
+      <img src="ae2636d180c14af8964f4c1b1a0c9fa5_8dbe0863-16ef-4729-9be8-c4dcbe79462e.jpeg" alt="منتج 1">
+      <h3>HAWA R8</h3>
+      <p>150cc</p>
+      <p class="price">37500 LE</p>
+    </div>
+
+    <!-- منتج 2 -->
+    <div class="product-card">
+      <img src="70c2dc90929743049d2ec1a45bc7a3e4_988f8c00-7afd-434e-b1fd-3edc03bc3e67.jpeg" alt="منتج 2">
+      <h3>HAWA MARINO SPORT</h3>
+      <p>150cc </p>
+      <p class="price">42500 LE</p>
+    </div>
+
+    <!-- منتج 3 -->
+    <div class="product-card">
+      <img src="WhatsApp Image 2024-09-29 at 1.16.25 AM (2).png" alt="منتج 3">
+      <h3>Keeway Keet</h3>
+      <p>150cc</p>
+      <p class="price"><s style="color: red;">51000 LE</s> 47500 LE </p>
+    </div>
+      <div class="product-card">
+        <img src="H254b6e1c56bd451382ad5df0e9cdc7d2B.avif" alt="منتج 3">
+        <h3>Dayun ADV </h3>
+        <p>200cc</p>
+        <p class="price"></s>70000 LE</p>
+      </div>
+      <div class="product-card">
+        <img src="467817751_942951204548812_532863066074370338_n.jpg" alt="منتج 3">
+        <h3>Dayun Max Pro</h3>
+        <p>200cc</p>
+        <p class="price"> 75500 LE</p>
+      </div>
+      <div class="product-card">
+        <img src="whatsapp_image_2024-03-20_at_10.webp" alt="منتج 3">
+        <h3>caffenero sport</h3>
+        <p>150cc</p>
+        <p class="price"> 79500 LE</p>
+      </div>
+      <div class="product-card">
+        <img src="6a466d08-3e8f-4ab7-a0ac-473435db5825.jpg" alt="منتج 3">
+        <h3> K T R</h3>
+        <p>300cc</p>
+        <p class="price"><S style="color: red;">90000 LE</S> 89000 LE</p>
+      </div>
+
+    
+  </div>
+</body>
+</html>

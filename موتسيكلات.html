@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموتسيكلات</title>
+</head>
+<style>
+        body{
+        background: linear-gradient(black,red);
+        
+    }
+        .action-button{
+    padding: 1em 2em;
+    background:linear-gradient(red, black);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:  background-color 0.3s;
+    display: block;
+  }
+  .action-button:hover{
+    background-color: red;
+  }
+.home{
+    text-decoration: none;
+    color: white;
+}
+img{
+        max-width: 100%;
+        max-height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    h1{
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: rgb(250, 250, 250);
+        background:linear-gradient(black,rgb(97, 0, 0));
+        cursor: pointer;
+    }
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      justify-items: center;
+    }
+    .product-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 330px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .product-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 15px 0;
+      font-size: 20px;
+      color: #333;
+    }
+    .product-card p {
+      margin: 10px 0;
+      font-size: 18px;
+      color: #777;
+    }
+    .product-card .price {
+      font-size: 22px;
+      font-weight: bold;
+      color: #4CAF50;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+   
+</style>
+<body>
+    <header>
+        <button class="action-button">
+            <a href="motor.html" class="home">رجــــــــوع</a>
+        </button>
+    <div class="logoph">
+        <a><img src="319777834_1548745818904125_612606017912900546_n.png" alt="logo"></a>
+    </div>
+</header>
+<h1 >الـــمــــوتــســيــكــــــلات </h1>
+<div class="product-container">
+    <!-- منتج 1 -->
+    <div class="product-card">
+      <img src="H8ff5162838e44a6d86ffa551bf33c50d8.avif" alt="منتج 1">
+      <h3> دايـــــو لاتــيـــــــه</h3>
+      <p>200cc</p>
+      <p class="price">58000 LE</p>
+    </div>
+
+    <!-- منتج 2 -->
+    <div class="product-card">
+      <img src="WhatsApp Image 2024-12-20 at 12.16.23 AM.jpeg" alt="منتج 2">
+      <h3> دايــــو 4 اسـتـيـــــراد</h3>
+      <p>150cc </p>
+      <p class="price">40500</p>
+    </div>
+
+    <!-- منتج 3 -->
+    <div class="product-card">
+      <img src="big-up_a91964ff43a4f4a266a57d9b74a51f51.jpg" alt="منتج 3">
+      <h3>دايـــو 4 مـصـــــــري</h3>
+      <p>150cc</p>
+      <p class="price">37500 LE</p>
+    </div>
+    <!-- منتج 4 -->
+    <div class="product-card">
+      <img src="b07b4b22-dfb4-4b84-8e16-a8523a8fce02.webp" alt="منتج 4">
+      <h3>دايــــو نـحـلــــه جـنــــــط</h3>
+      <p>150CC</p>
+      <p class="price">35000 LE</p>
+    </div>
+    <div class="product-card">
+        <img src="WhatsApp Image 2024-12-20 at 12.10.30 AM.jpeg" alt="منتج 5">
+        <h3>دايـــــو نحله سـلــــك</h3>
+        <p>150CC</p>
+        <p class="price">34500 LE</p>
+      </div>
+      <div class="product-card">
+        <img src="4aaaeaa3-0818-459c-964b-75a2236e742e.jpeg" alt="منتج 4">
+        <h3> هوجــــان 4 اســتــيــــراد</h3>
+        <p> 150CC</p>
+        <p class="price">46500 LE</p>
+      </div>
+      <div class="product-card">
+        <img src="هوجان 4 مصري.jpg" alt="منتج 4">
+        <h3>هوجــــان 4 مـصـــــــري</h3>
+        <p> 150CC</p>
+        <p class="price">38500 LE</p>
+      </div>
+  </div>
+</body>
+</html>

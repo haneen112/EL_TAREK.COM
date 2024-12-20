@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTORCYCLES</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(black,red);
+        
+    }
+        .action-button{
+    padding: 1em 2em;
+    background:linear-gradient(red, black);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:  background-color 0.3s;
+    display: block;
+  }
+  .action-button:hover{
+    background-color: red;
+  }
+.home{
+    text-decoration: none;
+    color: white;
+}
+img{
+        max-width: 100%;
+        max-height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        justify-items: center;
+      }
+      .product-card {
+        background-color: #fbfbfb;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+      .product-card img {
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+      }
+      .product-card h3 {
+        margin: 15px 0;
+        font-size: 20px;
+        color: #333;
+        text-decoration: none;
+      }
+      .product-card p {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #777;
+        text-decoration: none;
+      }
+     
+      .product-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+       
+        
+
+
+</style>
+<body>
+        <header>
+            <button class="action-button">
+                <a href="index.html" class="home">الـرئيسيـه</a>
+            </button>
+        <div class="logoph">
+            <a><img src="319777834_1548745818904125_612606017912900546_n.png" alt="logo"></a>
+        </div>
+    </header>
+   
+    <div class="product-container">
+        <!-- منتج 1 -->
+        <div class="product-card">
+          <a href="موتسيكلات.html"><img src="407584441_781689163972416_4442951554175615294_n.jpg" alt="منتج 1"></a>
+          <h3>  الـــمــــوتــســيــكــــــلات</h3>
+          
+        </div>
+    
+        <!-- منتج 2 -->
+        <div class="product-card">
+          <a href="تروسيكلات.html"><img src="468753804_1104519527902099_6229691171967956697_n.jpg" alt="منتج 2"></a>
+          <h3> الــــتـــــروســــيــــكـــــــــلات</h3>
+        </div>
+    
+        <!-- منتج 3 -->
+        <div class="product-card">
+          <a href="سكوتربنزين.HTML"><img src="332043400_2986082058366589_7450326434455039888_n.jpg" alt="منتج 3"></a>
+          <h3> ســكـــوتـــــــــر بــنــزيــــن</h3>
+        </div>
+         <!-- منتج 3 -->
+         <div class="product-card">
+            <a href="كهرباء.html"><img src="455642889_952313466909984_2048797192166291189_n.jpg" alt="منتج 3"></a>
+            <h3> ســكـــوتـــــــــر كهرباء</h3>
+            </div>
+    </div>
+                    
+</div>
+</body>
+</html>
